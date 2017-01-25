@@ -51,12 +51,12 @@ const _config = {
 
 Within your Wit account, under the understanding tab, start training the bot to extract "subject" entities with multiple sentences like:
  
- "Show me photos of cats"
- "Find photos of cats"
- "Find photos of dogs"
- "Photos of dogs"
+ - "Show me photos of cats"
+ - "Find photos of cats"
+ - "Find photos of dogs"
+ - "Photos of dogs"
  
- To start with you will need to select and set the subject for each sentence you train the neural network with. Over time the understanding will get better and begin to automatically select the subject automatically, in which case you will need to "Validate" the neural networks understanding. The more creative you can get with the training sentences, the better.
+To start with you will need to select and set the subject for each sentence you train the neural network with. Over time the understanding will get better and begin to automatically select the subject, in which case you will need to "Validate" the neural networks understanding. The more creative you can get with the training sentences, the better.
  
  To accommodate the current functionality of the bot you will need to repeat this process for the following entities:
 
