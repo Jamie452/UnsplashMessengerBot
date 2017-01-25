@@ -44,10 +44,10 @@ const _config = {
 #### 7) Configure the Botpress Messenger module by following [this guide](https://github.com/botpress/botpress-messenger#get-started)
 
 
-#### 8) Configure the Botpress Wit module with your [wit.ai](https://wit.ai/) account details and set the mode to "understanding"
+#### 8) Configure the Botpress Wit module with your [wit.ai](https://wit.ai/) account details and set the mode to "understanding" - You can import the "UnsplashWitAI.zip" data when creating a new app to get started with an existing neural network
 
 
-#### 9) Train Wit to understand entities
+#### 9) If you've not used the data import, train Wit to understand entities
 
 Within your Wit account, under the understanding tab, start training the bot to extract "subject" entities with multiple sentences like:
  
@@ -66,7 +66,3 @@ To start with you will need to select and set the subject for each sentence you 
 
 
 #### 10) Chat to the bot, validate/tweak responses through wit.ai inbox, repeat
-
-## Todo
-
-- Provide a ready trained export of wit.ai data.
